@@ -20,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Register</a>
+                        <a class="nav-link disabled" href="#">Register</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Log In</a>
@@ -34,11 +34,32 @@
         </nav>
         <div class="row" id="my-title">
             <div class="col">
-                <h1 class="display-3 text-center">Welcome</h1>
+                <h1 class="display-5 text-center">Product-description</h1>
             </div>
         </div>
         <div class="row" id="my-content">
-            <!--insert carousel & text stuff here-->
+            <div class="col-3" id="my-form">
+                <div class="row inner-top">
+                    <form>
+                        <ul>
+                            <label for="product-name">Product</label>
+                            <input class="product-name" type="text" id="product-name">
+                            <label for="product-name">Price</label>
+                            <input class="product-name" type="text" id="product-name">
+                        </ul>
+                    </form>
+                </div>
+                <div class="row inner-bottom">
+                    bottom
+                </div>
+            </div>
+            <div class="col-3" id="my-prob-buttons">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" href="#">Add to Cart</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button">Cancel</button>
+            </div>
+            <div class="col-6 p-3" id="my-prod-image">
+                <img src="https://picsum.photos/500" alt="...">
+            </div>
         </div>
         <div class="bg-danger row text-white d-none d-md-block" id="my-footer">
             <div class="col-6" id="social-media">
