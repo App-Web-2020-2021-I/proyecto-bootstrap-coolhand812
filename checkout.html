@@ -38,38 +38,27 @@
             </div>
         </div>
         <div class="row" id="my-content">
-            <div class="col-8">
-                <h4>Payment Information</h4>
-                <div class="form-group">
-                    <label for="customer-name">Name</label>
-                    <input class="form-control" type="text" id="customer-name" placeholder="name">
-                    <label for="customer-last">Last Name</label>
-                    <input class="form-control" type="text" id="customer-last" placeholder="last name">
-                    <label for="customer-email">E-Mail</label>
-                    <input class="form-control" type="email" id="customer-email" placeholder="e-mail">
-                    <label for="card-number">Card Number</label>
-                    <input class="form-control" type="text" id="card-number" placeholder="card number">
-                </div>
-                <div class="col-4">
-                    <div class="card-group">
-                        <div class="card">
-                            <img src="https://picsum.photos/200" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h6 class="card-title">Card title that wraps to a new line</h6>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="card-footer">
-                                    <div class="col-12 text-center">
-                                        Price:
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="row" id="top-row">
+                <div class="col-6" id="pmt-info">
+                    <h4>Payment Information</h4>
+                    <div class="form-group">
+                        <label for="customer-name">Name</label>
+                        <input class="form-control" type="text" id="customer-name" placeholder="name">
+                        <label for="customer-last">Last Name</label>
+                        <input class="form-control" type="text" id="customer-last" placeholder="last name">
+                        <label for="customer-email">E-Mail</label>
+                        <input class="form-control" type="email" id="customer-email" placeholder="e-mail">
+                        <label for="card-number">Card Number</label>
+                        <input class="form-control" type="text" id="card-number" placeholder="card number">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 text-center p-3" id="pay-button">
-                        <button class="btn btn-outline-success" data-toggle="modal" data-target="#my-modal">Pay</button>
-                    </div>
+                <div class="col-6" id="prod-card">
+
+                </div>
+            </div>
+            <div class="row" id="bottom-row">
+                <div class="col-12 text-center p-3" id="pay-button">
+                    <button class="btn btn-outline-success" data-toggle="modal" data-target="#my-modal">Pay</button>
                 </div>
             </div>            
         </div>
