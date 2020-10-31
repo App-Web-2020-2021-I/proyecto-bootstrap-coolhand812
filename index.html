@@ -64,10 +64,10 @@
                   <span class="sr-only">Next</span>
                 </a>
             </div> <!--end carousel-->
-            <div class="welcome-text text-center" id="welcome-text">
+            <div class="welcome-text text-center p-3" id="welcome-text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat unde corrupti officiis recusandae veritatis esse molestias facilis. Earum cupiditate amet consectetur a, modi eius ea quae unde facilis omnis asperiores?</p>
             </div>
-            <div class="row d-flex justify-content-center" id="bottom-row">
+            <div class="row d-flex justify-content-center p-3" id="bottom-row">
                 <button onclick="location.href='customer_NO_login.html'" class="btn btn-outline-danger my-2 my-sm-0" type="submit">More Products</button>
             </div>
         </div>
@@ -98,13 +98,16 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">This is a Modal!</h5>
+                    <h5 class="modal-title">Please Log In</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                 <div class="modal-body">
-                    <p>This is a work in progress!</p>
+                    <p>By signing in, you accept our terms of service.</p>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="location.href='.html'" class="btn btn-outline-success my-2 my-sm-0" type="submit">Log In</button>
                 </div>
             </div>
         </div>
@@ -120,7 +123,7 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                <div class="modal-body d-flex flex-column align-items-start">
+                <div class="modal-body">
                     <div class="form-group">
                         <label for="customer-name">Name</label>
                         <input class="form-control" type="text" id="customer-name" placeholder="name">
